@@ -1,30 +1,30 @@
-# 🚀 Scraping Browser by Bright Data
+# 🚀 Bright Data の Scraping Browser
 
-*A fully automated headless browser solution for dynamic web scraping with Puppeteer, Selenium, and Playwright. The Scraping Browser is opened as a GUI on Bright Data's Infrastructure.*  
+*Puppeteer、Selenium、Playwright を用いた動的Webスクレイピング向けの、完全自動化されたヘッドレスブラウザソリューションです。Scraping Browser は Bright Data のインフラ上で GUI として開きます。*  
 
-[![Promo](https://github.com/luminati-io/LinkedIn-Scraper/raw/main/Proxies%20and%20scrapers%20GitHub%20bonus%20banner.png)](https://brightdata.com/products/scraping-browser) 
+[![Promo](https://github.com/luminati-io/LinkedIn-Scraper/raw/main/Proxies%20and%20scrapers%20GitHub%20bonus%20banner.png)](https://brightdata.jp/products/scraping-browser) 
 
-🔗 **[Get Started for Free](https://brightdata.com/products/scraping-browser)** | 📖 **[Official Documentation](https://docs.brightdata.com/scraping-automation/scraping-browser/introduction)**  
-
----
-
-## 🔹 Overview  
-Scraping Browser is a fully-hosted **browser-based scraping solution** that automates **multi-step data collection** with **built-in proxy management**, **CAPTCHA solving**, and **advanced website unblocking**. It supports **Puppeteer, Playwright, and Selenium**, enabling effortless web automation at an **unlimited scale**.  
-
-## ✅ Why Use Scraping Browser?  
-- **No Infrastructure Overhead** – Run and scale browser sessions via API without maintaining browser infrastructure.  
-- **Built-in Unlocking** – Auto-handles **CAPTCHAs, fingerprinting, retries, and JS rendering** under the hood.  
-- **Multi-Step Navigation** – Automate clicks, scrolling, form submissions, and hover interactions.  
-- **Unlimited Scaling** – Launch **thousands of concurrent browser sessions** without rate limits.  
-- **Global Geo-Access** – Unlock localized content with [**72M+ residential IPs across 195 countries**](https://brightdata.com/proxy-types/residential-proxies).  
-- **Seamless Debugging** – Monitor sessions in real-time with **Chrome DevTools integration**.  
+🔗 **[無料で始める](https://brightdata.jp/products/scraping-browser)** | 📖 **[公式ドキュメント](https://docs.brightdata.com/scraping-automation/scraping-browser/introduction)**  
 
 ---
 
-## 🚀 Getting Started  
+## 🔹 概要  
+Scraping Browser は、**ブラウザベースのスクレイピングソリューション**としてフルホストで提供され、**組み込みのプロキシ管理**、**CAPTCHA 解決**、**高度なサイトのブロック解除**により、**マルチステップのデータ収集**を自動化します。**Puppeteer、Playwright、Selenium** をサポートし、**無制限のスケール**で容易にWeb自動化を実現できます。  
 
-### Install Dependencies  
-Ensure you have **Node.js**, **Python**, or **C#** installed along with your preferred web automation library:  
+## ✅ Scraping Browser を使う理由  
+- **インフラ運用のオーバーヘッドなし** – ブラウザインフラを維持することなく、API でブラウザセッションを実行・スケールできます。  
+- **組み込みのアンロック機能** – **CAPTCHA、フィンガープリント、リトライ、JS レンダリング**を内部で自動処理します。  
+- **マルチステップのナビゲーション** – クリック、スクロール、フォーム送信、ホバー操作を自動化します。  
+- **無制限のスケーリング** – レート制限なしで **数千の同時ブラウザセッション**を起動できます。  
+- **グローバルなジオアクセス** – [**195か国にわたる 72M+ のレジデンシャルIP**](https://brightdata.jp/proxy-types/residential-proxies)でローカライズされたコンテンツをアンロックできます。  
+- **シームレスなデバッグ** – **Chrome DevTools 連携**により、セッションをリアルタイムで監視できます。  
+
+---
+
+## 🚀 はじめに  
+
+### 依存関係のインストール  
+お使いの好みのWeb自動化ライブラリと併せて、**Node.js**、**Python**、または **C#** がインストールされていることを確認してください。  
 
 ```sh
 # Install Puppeteer
@@ -37,9 +37,9 @@ npm install playwright
 pip install selenium
 ```
 
-## 🔧 Usage Examples
+## 🔧 使用例
 
-### Puppeteer Example (JavaScript)
+### Puppeteer 例（JavaScript）
 
 ```js
 const puppeteer = require('puppeteer-core');
@@ -64,9 +64,9 @@ async function main() {
 main().catch(err => console.error(err.stack || err));
 ```
 
-> **💡 Learn more about [web scraping with Puppeteer](https://brightdata.com/blog/how-tos/web-scraping-puppeteer)**
+> **💡 [Puppeteer を使ったWebスクレイピング](https://brightdata.jp/blog/how-tos/web-scraping-puppeteer)について詳しく見る**
 
-### Playwright Example (Python)
+### Playwright 例（Python）
 
 ```python
 import asyncio
@@ -95,9 +95,9 @@ if __name__ == '__main__':
     asyncio.run(main())
 ```
 
-> **💡 Learn more about [web scraping with Playwright](https://brightdata.com/blog/how-tos/playwright-web-scraping)**
+> **💡 [Playwright を使ったWebスクレイピング](https://brightdata.jp/blog/how-tos/playwright-web-scraping)について詳しく見る**
 
-### Selenium Example (JavaScript)
+### Selenium 例（JavaScript）
 
 ```js
 const { Builder, Browser } = require('selenium-webdriver');
@@ -121,13 +121,13 @@ async function main() {
 main().catch(err => console.error(err.stack || err));
 ```
 
-> **💡 Learn more about [web scraping with Selenium](https://brightdata.com/blog/how-tos/using-selenium-for-web-scraping)**
+> **💡 [Selenium を使ったWebスクレイピング](https://brightdata.jp/blog/how-tos/using-selenium-for-web-scraping)について詳しく見る**
 
-## 🔥 Advanced Features
+## 🔥 高度な機能
 
-### Debugging with Chrome DevTools
+### Chrome DevTools でのデバッグ
 
-Monitor browser sessions in real-time:
+ブラウザセッションをリアルタイムで監視します。
 
 ```js
 const { exec } = require('child_process');
@@ -142,40 +142,40 @@ const openDevtools = async (page, client) => {
 };
 ```
 
-### CAPTCHA Solving
+### CAPTCHA 解決
 
 ```js
 const client = await page.target().createCDPSession();
 const { status } = await client.send('Captcha.solve', { detectTimeout: 30000 });
 ```
 
-> **🤖 Learn more about our [CAPTCHA Solver](https://github.com/luminati-io/Captcha-solver).**
+> **🤖 当社の [CAPTCHA Solver](https://github.com/luminati-io/Captcha-solver) について詳しく見る。**
 
-## 🔄 Automatic IP Rotation & Unlocking  
-Scraping Browser automatically rotates IPs thanks to the integrated [rotating proxies](https://brightdata.com/solutions/rotating-proxies) and handles retries for seamless data collection. 
+## 🔄 自動 IP ローテーション & アンロック  
+Scraping Browser は、統合された [ローテーティングプロキシ](https://brightdata.jp/solutions/rotating-proxies) によりIPを自動でローテーションし、シームレスなデータ収集のためにリトライを処理します。 
 
-## 💰 Pricing  
+## 💰 料金  
 
-### Flexible Plans  
-- **Pay-As-You-Go:** $8.40/GB – No commitment.  
-- **Growth Plan:** $7.14/GB – Ideal for teams.  
-- **Business Plan:** $6.30/GB – For scaling operations.  
-- **Enterprise:** Custom pricing for high-volume needs.  
+### 柔軟なプラン  
+- **従量課金（Pay-As-You-Go）:** $8.40/GB – コミットメント不要です。  
+- **Growth Plan:** $7.14/GB – チームに最適です。  
+- **Business Plan:** $6.30/GB – 運用のスケールに向いています。  
+- **Enterprise:** 大量利用のニーズに向けたカスタム料金です。  
 
-**Sign up now and get your first deposit matched up to $500!**  
+**今すぐ登録して、初回入金が最大 $500 まで同額マッチされます！**  
 
-[View Pricing](https://brightdata.com/pricing/scraping-browser)  
+[料金を見る](https://brightdata.jp/pricing/scraping-browser)  
 
-## ❓ Frequently Asked Questions  
+## ❓ よくある質問  
 
-### What makes Scraping Browser different from a standard headless browser?  
-Scraping Browser is a fully managed, GUI-based browser that runs on Bright Data's infrastructure and automatically unlocks even the most protected sites.  
+### Scraping Browser は標準的なヘッドレスブラウザと何が違いますか？  
+Scraping Browser は、Bright Data のインフラ上で動作するフルマネージドの GUI ベースブラウザであり、最も保護されたサイトであっても自動的にアンロックします。  
 
-### How does Scraping Browser handle bot detection?  
-It automates fingerprinting, CAPTCHA solving, retries, and mimics real user behavior to prevent detection.  
+### Scraping Browser はボット検知をどのように処理しますか？  
+フィンガープリント、CAPTCHA 解決、リトライを自動化し、実ユーザーの挙動を模倣して検知を回避します。  
 
-### Is Scraping Browser compatible with Puppeteer, Playwright, and Selenium?  
-Yes! It seamlessly integrates with all major web automation tools.  
+### Scraping Browser は Puppeteer、Playwright、Selenium に対応していますか？  
+はい。主要なWeb自動化ツールすべてにシームレスに統合できます。  
 
-### When should I use Scraping Browser instead of a proxy?  
-Use Scraping Browser when you need JavaScript rendering, interactive actions (clicks, scrolls), and multi-step navigation.  
+### プロキシではなく Scraping Browser を使うべきなのはいつですか？  
+JavaScript レンダリング、インタラクティブな操作（クリック、スクロール）、およびマルチステップのナビゲーションが必要な場合は Scraping Browser を使用してください。
